@@ -1,0 +1,86 @@
+* {
+	background-color: gray;
+}
+
+@keyframes legends {
+	0%  {background-color: gray; color: red;}
+    25%  {background-color: brown; color: green;}
+    50%  {background-color: #9F6164; color: blue;}
+    75%  {background-color: #44B3C2; color: white;}
+    100% {background-color: #218C8D; color: orange;}
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.7em;
+	animation: legends 5s ease infinite;
+}
+
+.anh1 {
+	border: 1px solid #dddddd;
+	padding: 1px;
+	float: left;
+	width: 33%;
+}
+
+.anh2 {
+	border: 1px solid #dddddd;
+	padding: 1px;
+	float: left;
+	width: 33%;
+}
+
+.anh3 {
+	border: 1px solid #dddddd;
+	padding: 1px;
+	float: left;
+	width: 33%;
+	overflow: hidden;
+}
+
+.anh1 img {
+	vertical-align: middle;
+	max-width: 500px;
+	transition: opacity 0.5s linear;	
+}
+
+.anh1:hover img {
+	opacity: 0.2
+}
+
+.anh2 img {
+	vertical-align: middle;
+	max-width: 500px;
+	opacity: 0.1
+	
+}
+
+.anh2:hover img {
+	opacity: 0.9;
+	animation: fadeIn 0.5s linear;	
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.1;}
+    100% {opacity: 1;}
+}
+
+.anh3 img {
+	vertical-align: middle;
+	max-width: 500px;
+}
+
+.chuki {
+    height: 70px;
+    width: 200px;
+	margin: 0 0 0 85%;
+	position: relative;
+	animation: chay 7s infinite;
+}
+
+
+@keyframes chay {
+    0% { margin: 0 0 0 90%; opacity: 0}
+    50% { margin: 0 0 0 85%; opacity: 1}
+    100% { margin: 0 0 0 65%; opacity: 0}
+}

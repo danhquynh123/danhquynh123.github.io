@@ -1,0 +1,17 @@
+.anh {
+	border: 1px solid #dddddd;
+	cursor: pointer;
+	padding: 1px;
+	float: left;
+	width: 30%;
+}
+
+.anh img {
+	vertical-align: middle;
+	max-width: 500px;
+	transition: 0.5s all ease;
+}
+
+.anh:hover img {
+	transform: scale(1.5);
+}
