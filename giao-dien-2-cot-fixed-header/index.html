@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="fixedheader">
+		
+	<a href="">
+			
+	<img src="img/logo.png">
+	<span>Vue.js</span>
+
+	</a>
+
+	<ul>
+			
+		<li>
+				
+			<a href="">Học Vue</a>
+			<ul id="menu">
+					
+		<li>
+
+			<a href="">Hướng dẫn</a>
+
+		</li>
+
+		<li>
+			<a href="">API</a>
+		</li>
+
+		<li>
+			<a href="">Phong cách viết</a>
+		</li>
+
+		<li>
+			<a href="">Một số ví dụ</a>
+		</li>
+
+		<li>
+			<a href="">Cookbook</a>
+		</li>
+
+			</ul>
+
+		</li>
+
+		<li>
+				
+			<a href="">Hệ sinh thái</a>
+
+		</li>
+
+		<li>
+				
+			<a href="">Đội ngũ</a>
+
+		</li>
+
+		<li>
+				
+			<a href="">Hỗ trợ Vue</a>
+
+		</li>
+
+		<li>
+				
+			<a href="">Ngôn ngữ</a>
+
+		</li>
+
+	</ul>
+
+</div>
+
+
+
+<div id="leftsidebar">
+		
+	<h2>Hướng dẫn</h2>
+	<h3>Khái niệm cơ bản</h3>
+
+	<p>
+	Cài đặt
+	</p>
+
+	<span>Giới thiệu</span>
+
+	<h4>Hiệu ứng chuyển động</h4>
+
+	<p>
+	Transition cho enter/leave & danh sách
+
+	</p>
+
+	<p>
+	Transition cho trạng thái
+	</p>
+
+	<h4>Tái sử dụng & kết hợp</h4>
+
+	<p>
+	Mixin
+	</p>
+
+	<p>
+	Directive tùy biến
+	</p>
+
+	<h4>Công cụ</h4>
+
+	<p>
+	Triển khai cho môi trường production
+	</p>
+
+	<p>
+	Single File Components
+	</p>
+
+	<h4>Mở rộng quy mô ứng dụng</h4>
+
+	<p>
+	Routing
+	</p>
+
+	<p>
+	Quản lí trạng thái
+	</p>
+
+	<h4>Bên trong Vue</h4>
+	<p>
+	Reactivity in Depth
+	</p>
+
+</div>
+
+
+<div id="noidung">
+		
+	<h1>Giới thiệu</h1>
+
+	<h2>Vue.js là gì?</h2>
+
+	<p>
+	Gọi tắt là Vue (phát âm là /vjuː/, giống như <span>view</span> trong tiếng Anh), Vue.js là một <span>framework linh động</span> (nguyên bản tiếng Anh: progressive – tiệm tiến) dùng để xây dựng giao diện người dùng (user interfaces). Khác với các framework nguyên khối (monolithic), Vue được thiết kế từ đầu theo hướng cho phép và khuyến khích việc phát triển ứng dụng theo từng bước. Khi phát triển lớp giao diện (view layer), người dùng chỉ cần dùng thư viện lõi (core library) của Vue, vốn rất dễ học và tích hợp với các thư viện hoặc dự án có sẵn. Cùng lúc đó, nếu kết hợp với những kĩ thuật hiện đại như <a href="">SFC (single file components)</a> và <a href="">các thư viện hỗ trợ</a>, Vue cũng đáp ứng được dễ dàng nhu cầu xây dựng những ứng dụng một trang (SPA - Single-Page Applications) với độ phức tạp cao hơn nhiều.
+	</p>
+
+	<p>
+	Nếu bạn muốn tìm hiểu thêm về Vue, chúng tôi đã <a href="">tạo một video clip</a> về những nguyên tắc cốt lõi và một dự án mẫu.
+	</p>
+
+	<p>
+	Nếu bạn là một lập trình viên front-end giàu kinh nghiệm và muốn hiểu hơn về tương quan giữa Vue và các thư viện hay framework khác, hãy xem phần <a href="">So sánh với các framework khác</a>.
+	</p>
+
+
+	<h2>Bắt đầu</h2>
+
+	<p>
+	Để dùng thử Vue.js, không gì dễ hơn là bắt đầu với một <a href="">ví dụ Hello World trên JSFiddle</a>. Hãy mở ví dụ này trong một tab khác và làm theo những ví dụ cơ bản mà chúng tôi sẽ nhắc đến dần sau đây. Bạn cũng có thể <a href="">tạo một file</a> index.html và nhúng thư viện Vue vào:
+	</p>
+
+	<p>
+	Trang <a href="">Cài đặt</a> sẽ cung cấp cho bạn nhiều lựa chọn hơn để cài đặt Vue. Lưu ý rằng chúng tôi không khuyến khích việc dùng vue-cli khi bạn chỉ mới bắt đầu, nhất là nếu bạn chưa quen với các công cụ xây dựng (build tools) trên nền tảng Node.js.
+	</p>
+
+	<h2>Biên soạn với các component</h2>
+	
+	<p>
+	Hệ thống component (phần tử cấu thành) là một khái niệm quan trọng trong Vue, vì nó cho phép chúng ta xây dựng những ứng dụng quy mô lớn được tạo thành từ những phần tử nhỏ, độc lập, và thường là tái sử dụng được. Nếu bạn để ý, gần như bất kì một loại giao diện ứng dụng nào cũng có thể được trừu tượng hóa thành một tập hợp dạng cây của các phần tử con:
+	</p>
+
+	<p>		
+	<img src="img/components.png">
+	</p>
+
+	<h3># Mối quan hệ với Custom Element</h3>
+
+	<p>	
+	Bạn có thể để ý thấy là component trong Vue rất giống với Custom Element, một phần của <a href="">chỉ dẫn kĩ thuật về Web Components</a>. Lí do là cú pháp của component trong Vue mô phỏng theo chỉ dẫn này. Ví dụ, component trong Vue phát triển <a href="">Slot API</a> và thuộc tính đặc biệt is. Tuy nhiên, giữa web component và Vue component có một số khác biệt mấu chốt:
+	</p>
+
+	<p>
+			
+		<ul>
+				
+			<li>
+			Chỉ dẫn kĩ thuật về web component vẫn còn ở dạng sơ thảo, chưa được phát triển trong toàn bộ các trình duyệt. Ngược lại, Vue component hoạt động một cách thống nhất trên các trình duyệt được Vue hỗ trợ (từ IE9 trở lên) mà không cần polyfill. Ngoài ra, Vue component cũng có thể được gói (wrap) trong một custom element nếu cần.
+			</li>
+
+			<li>
+			Vue component cung cấp một số chức năng quan trọng không có trong custom element đơn thuần, trong đó đáng lưu ý nhất là quản lí luồng dữ liệu giữa các component, giao tiếp bằng các sự kiện tùy biến (custom event) và tích hợp với các công cụ xây dựng.
+			</li>
+
+		</ul>
+
+	</p>
+
+</div>
+
+</body>
+</html>

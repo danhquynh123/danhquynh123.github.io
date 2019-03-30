@@ -1,0 +1,31 @@
+#gioithieu {
+	border-bottom: 4px solid #2e3236;
+    color: #2e3236;
+    font: bold 18px pt-sans,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+
+#giangvien {
+	border-bottom: 4px solid #2e3236;
+    color: #2e3236;
+    font: bold 18px pt-sans,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-transform: none; 
+}
+
+.box {
+	border: 1px solid #dddddd;
+	padding: 15px;
+	border-width: 15px;
+	float: left;
+    width: 44%;
+
+}
+
