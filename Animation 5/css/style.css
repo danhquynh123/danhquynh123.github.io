@@ -1,0 +1,70 @@
+#box {
+	margin: 100px
+}
+
+.box1 {
+	height: 30px;
+
+}
+
+.box2 {
+	height: 50px;
+	display: inline-block;
+}
+
+.chay1, .chay2, .chay3 h1 {
+	color: white;
+	position: absolute;
+	top: 130px;
+	left: 110px;
+	opacity: 1;
+}
+
+
+.chay1 {
+	animation: blinks 3s infinite;
+	width: 200px;
+	opacity: 0;
+	background-color: green
+}
+
+.chay2 {
+	animation: blinkss 3s infinite;
+	width: 135px
+	opacity: 0;
+	background-color: orange;
+
+}
+
+.chay3 {
+	animation: blinksss 3s infinite;
+	height: 80px;
+	width: 180px;
+	opacity: 0;
+	background-color: purple;
+}
+
+@keyframes blinks {
+	0% {opacity: 1}
+	25% {opacity: 1}
+	50% {opacity: 0}
+	75% {opacity: 0}
+	100% {opacity:0}
+}
+
+@keyframes blinkss {
+	0% {opacity: 0}
+	25% {opacity: 0}
+	50% {opacity: 1}
+	75% {opacity: 1}
+	100% {opacity: 0}
+}
+
+@keyframes blinksss {
+	0% {opacity: 0}
+	25% {opacity: 0}
+	50% {opacity: 0}
+	75% {opacity: 0}
+	90% {opacity: 1}
+	100% {opacity: 1}
+}
