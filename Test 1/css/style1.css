@@ -1,0 +1,17 @@
+img {
+	max-width: 500px;
+	padding-left: 35%
+}
+
+h1 {
+	text-align: center;
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	width: 90%;
+	padding: 45px;
+	font-weight: bold;
+	color: brown;
+}

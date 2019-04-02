@@ -1,0 +1,41 @@
+* {
+	background-color: #e9ebee;
+}
+
+@keyframes meo {
+	0%  {background-color: #218C8D; color: red;}
+    25%  {background-color: #44B3C2; color: green;}
+    50%  {background-color: #218C8D; color: blue;}
+    75%  {background-color: #44B3C2; color: white;}
+    100% {background-color: #218C8D; color: orange;}
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.5em;
+	animation: meo 5s ease infinite;
+}
+
+p {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.anh1 {
+	border: 1px solid #e9ebee;
+	padding: 1px;
+	float: left;
+	width: 33%;
+}
+
+.anh1 img {
+	vertical-align: middle;
+	max-width: 500px;
+	transition: opacity 0.5s linear;	
+}
+
+.anh1:hover img {
+	opacity: 0.2;
+	overflow: hidden;
+
+}
