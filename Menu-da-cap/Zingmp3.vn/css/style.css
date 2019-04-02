@@ -1,0 +1,148 @@
+a {
+	color: #65509e;
+	text-decoration: none;
+}
+
+ul {
+	
+	padding: 0 0 0 45px;
+}
+
+li {
+	padding: 15px;
+	list-style: none;
+	line-height: 30px;	
+}
+
+table {
+	width: 800px;
+}
+
+.box {
+	padding-left: 45px;
+}
+
+
+
+.menu1 {
+	padding: 0 15px 0 15px;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+	width: auto;
+	text-transform: uppercase;
+}
+
+.menu1 a {
+	width: auto;
+	float: left;
+	color: #92929d;
+	font-size: 14px;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 50px;
+	font-weight: bold;
+	position: relative;
+}
+
+.menu1:hover {
+	border-bottom: 2px solid #65509e;
+}
+
+.menu1-1 {
+	width: auto;
+	position: absolute;
+	display: none;
+	padding: 15px 0 15px 15px;
+	top: 70px;
+	left: 195px;
+}
+
+.menu1-1 tr a {
+	font-size: 12px
+}
+
+.menu1-2 {
+	background-color: #ffffff;
+	width: auto;
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 320px;
+}
+
+.menu1-2 tr a {
+	font-size: 12px
+}
+
+.menu1-3 {
+	background-color: #ffffff;
+	width: auto;
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 430px;
+}
+
+.menu1-3 tr a {
+	font-size: 12px
+}
+
+.menu1-4 {
+	background-color: #ffffff;
+	width: auto;
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 545px;
+}
+
+.menu1-4 tr a {
+	font-size: 12px
+}
+
+.menu1-5 {
+	background-color: #ffffff;
+	width: auto;
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 650px;
+}
+
+.menu1-5 tr a {
+	font-size: 12px
+}
+
+.menu1-6 {
+	background-color: #ffffff;
+	width: auto;
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 765px;
+}
+
+.menu1-6 tr a {
+	font-size: 12px
+}
+
+th {
+	font-weight: bold;
+	line-height: 2rem;
+	width: 120px;
+}
+
+td {
+	line-height: 2rem;
+	width: 120px;
+	text-transform: capitalize;
+}
+
+
+li:hover ul{
+	display: block;
+	background-color: #efefef;
+}
+
