@@ -37,3 +37,4 @@ bai4([2, 4, 7, 8, 2, 5]);
 function countElementWithTagName(tagName) {
   return document.getElementsByTagName(tagName).length;
 }
+countElementWithTagName('span')
