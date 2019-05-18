@@ -1,0 +1,17 @@
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 10px 30px;
+	position: relative;
+}
+
+tbody tr:hover {
+	background-color: #ededed;
+}
+
+img {
+	max-width: 200px
+}

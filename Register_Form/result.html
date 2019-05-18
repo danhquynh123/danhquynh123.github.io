@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<h1>Đăng ký thành công</h1>
+
+	<script>
+		var User = {
+			lastname = document.getElementById('lastname').value;
+			firstname = document.getElementById('firstname').value;
+			phone = document.getElementById('phone').value;
+			address = document.getElementById('address').value;
+			email = document.getElementById('email').value;
+			password = document.getElementById('password').value;
+			say: function hienThi() {
+				alert("Thông tin thành viên: " + User.lastname + User.firstname + "Số điện thoại: " + User.phone + "Địa chỉ: " + User.address + "Email: " + User.email + "Mật khẩu: " + User.password)
+				}
+		}
+	</script>
+</body>
+</html>

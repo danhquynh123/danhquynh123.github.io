@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+	<form action="result.html" onsubmit="return hienThi()">
+		<h1>Đăng kí thành viên</h1> <br /><br />
+
+		<input type="text" name="lastname" id ="lastname" placeholder="Họ"> <br /><br />
+
+		<input type="text" name="firstname" id="firstname" placeholder="Tên"> <br /><br />
+
+		<input type="text" name="phone" id="phone" placeholder="Số di động"> <br /><br />
+
+		<input type="text" name="address" id="address" placeholder="Địa chỉ"> <br /><br />
+
+		<input type="text" name="email" id="email" placeholder="Email"> <br /><br />
+
+		<input type="password" name="password" id="password" placeholder="Mật khẩu"> <br /><br />
+
+		Ngày sinh <br /><br />
+		<select id="day"></select>
+		<select id="month"></select>
+		<select id="year"></select>
+
+		<br /><br />
+
+		<label><input type="radio" name="gender" value="female"> Nữ</label>
+		<label><input type="radio" name="gender" value="male"> Nam</label>
+		
+		<br /><br />
+
+		<button class="btn-login">Đăng ký</button>
+
+		<script type="text/javascript" src="js/script.js"></script>
+	</form>
+</body>
+</html>
