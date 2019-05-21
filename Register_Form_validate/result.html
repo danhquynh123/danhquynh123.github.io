@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+<form>
+	<h1>Đăng ký thành công</h1>
+	<span id="show"></span>
+</form>
+	<script>
+		let str = decodeURIComponent(window.location.href);
+		let n = str.slice(str.indexOf("lastname"));
+		let y = n.replace(/&/g, "<br>");
+		let x = y.replace(/=/g, ": ")
+		let z = x.split('+').join(' ')
+		document.getElementById("show").innerHTML = z;
+	</script>
+</body>
+</html>
