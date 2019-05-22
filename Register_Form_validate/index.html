@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+
+</head>
+
+<body>
+	<form id='register' action="result.html" method="get">
+		<h1>Đăng kí thành viên</h1> <br /><br />
+
+		<input type="text" name="lastname" id ="lastname" placeholder="Họ"> 
+		<span class="error"></span><br /><br />
+
+		<input type="text" name="firstname" id="firstname" placeholder="Tên"> 
+		<span class="error"></span><br /><br />
+
+		<input type="text" name="phone" id="phone" placeholder="Số di động"> 
+		<span class="error"></span><br /><br />
+
+		<input type="text" name="address" id="address" placeholder="Địa chỉ"> 
+		<span class="error"></span><br /><br />
+
+		<input type="email" name="email" id="email" placeholder="Email"> 
+		<span class="error"></span><br /><br />
+
+		<input type="password" name="password" id="password" placeholder="Mật khẩu"> 
+		<span class="error"></span><br /><br />
+
+		Ngày sinh <br /><br />
+		<select id="day"></select>
+		<select id="month"></select>
+		<select id="year"></select>
+
+		<span class="error"></span><br /><br />
+
+		<label><input type="radio" name="gender" value="female"> Nữ</label>
+		<label><input type="radio" name="gender" value="male"> Nam</label>
+		
+		<span class="error"></span><br /><br />
+
+		<input id="submit" type="submit" value="Đăng ký" class="btn-login"></input>
+	</form>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+</html>
