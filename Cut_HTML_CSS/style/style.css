@@ -1,0 +1,51 @@
+.container {
+	max-width: 1000px;
+	background-color: #313131;
+}
+
+.image {
+	margin: 0 auto; 
+	display: block;
+	max-width: 760px;
+	padding-bottom: 5.625rem;
+}
+
+.box {
+	padding-left: 11.25rem;
+}
+@font-face {
+	font-family:Helvetica-Neue-Bold;
+	src:url(‘fonts/HelveticaNeue-Heavy.ttf’) format(‘truetype’);
+}
+
+@font-face{
+	font-family:HelveticaNeueLight;
+	src:url(‘fonts/HelveticaNeueLight.ttf’) format(‘truetype’);
+}
+
+@font-face {
+	font-family:HelveticaNeue-Medium;
+	src:url(‘fonts/HelveticaNeue-Medium.ttf’) format(‘truetype’);
+}
+h1 {
+	font-family:;
+	padding-top: 2.5rem;
+	font-weight: bold;
+	font-size: 5rem;
+	color: #e3e3e3;
+}
+
+.text {
+	font-family:;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	color: #bbbbbb
+}
+
+.tag {
+	font-family:;
+	font-size: 2.375rem;
+	padding-top: 2.1875rem;
+	padding-bottom: 2.1875rem;
+	color: #d4d4d4;
+}
