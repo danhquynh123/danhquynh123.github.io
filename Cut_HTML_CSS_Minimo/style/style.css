@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "inconsolata-regular";
+    src: url('fonts/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+    font-family: "playfairdisplay-regular";
+    src: url('fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('fonts/Ubuntu-R.ttf');
+}
+
+body {
+    font-family: "playfairdisplay-regular";
+    font-size: 14px;
+    color: #626262;
+}
+
+#wrap, .banner {
+    margin-top: 4rem;
+}
+
+.banner img {
+    width: 100%
+}
+
+header>#wrap::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+#logo {
+    font-family: "inconsolata-regular";
+    font-size: 30px;
+    max-width: 100px;
+    float: left;
+}
+
+.nav-lin {
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #626262;
+    padding-top: 60px;
+}
+
+#menu-nav {
+    max-width: 900px;
+    padding-top: 20px;
+}
+
+.banner {
+	padding-top: 100px;
+}
+
+p {
+    margin-top: 34px;
+    margin-bottom: 1rem;
+    padding-right: 35px;
+    font-family: "playfairdisplay-regular";
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+    padding-top: 100px;
+    font-family: "Ubuntu";
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.tag {
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+    font-family: "Ubuntu";
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.content {
+    font-family: 'Playfair Display Regular';
+    font-size: 16px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.describe {
+    padding-bottom: 50px;
+}
+
+
+.thumbnail img {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container1 {
+    max-width: 980px;
+}
+
+.posts {
+    max-width: 980px;
+}
+
+.container a {
+    color: #626262;
+    text-decoration-line: none;
+}
+
+.container a:hover{
+    text-decoration: none;
+}
+
+.container-fluid {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.text-center {
+    padding-bottom: 78px;
+    font-family: 'playfairdisplay-regular';
+    font-size: 2rem;
+}
+
+.form {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subcribe {
+    width: 100%
+}
+
+
+input {
+    border: none;
+    width: 90%;
+    background-color: #f0f0f0;
+}
+
+.container button {
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #626262;
+    border: solid 1px #626262;
+    text-align: center;
+}
+
+.button1 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#footer {
+    max-height: 100px;
+    background-color: #f0f0f0;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .container {
+        max-width: 1024px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .container {
+        max-width: 100%;
+            
+    }
+}
+
+@media (max-width: 575px){
+    .container {
+        max-width: 100%;
+        
+    }
+}
+
+@media (max-width:992px) {
+    #register {
+        width: 300px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    #footer {
+        max-width: 900px;
+    }
+}
