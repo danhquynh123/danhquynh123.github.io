@@ -24,6 +24,11 @@ input:focus{
     outline: none;
 }
 
+button:focus {
+    outline: none;
+}
+
+
 .btn-submit:hover {
     background: #508690!important;
 }

@@ -33,6 +33,14 @@ a {
     background: #508690!important;
 }
 
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
 /*header*/
 .topbanner {
     background-color: #508690;
