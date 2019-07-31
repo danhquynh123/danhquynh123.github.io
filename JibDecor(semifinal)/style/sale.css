@@ -18,7 +18,7 @@ a {
 
 .nav-link2:hover {
     text-decoration: none;
-    color: #508690!important;
+    color: #212529!important;
 }
 
 .breadcrumb-item a {
@@ -37,6 +37,7 @@ input:focus{
 
 .btn-submit:hover {
     background: #508690!important;
+    color: #FFC107;
 }
 
 
@@ -283,9 +284,6 @@ a {
         padding-left: 0.5rem;
     }
 
-    header a.nav-link1 {
-        font-size: 11px;
-    }
 
     .d-lg-block {
         display: block !important;
@@ -307,13 +305,7 @@ a {
         margin: 0 4px;
     }
 
-    header a.nav-link1 {
-        font-size: 12px;
-    }
 
-    header a.nav-link {
-        font-size: 16px;
-    }
 
     header ul li.nav-item {
         margin: 0 4px;
@@ -583,3 +575,4 @@ p {
   color: #fa7268!important;
 }
 /*end footer*/
+

@@ -17,7 +17,7 @@ a {
 
 .nav-link2:hover {
     text-decoration: none;
-    color: #508690!important;
+    color: #212529!important;
 }
 
 input:focus{
@@ -31,6 +31,7 @@ button:focus {
 
 .btn-submit:hover {
     background: #508690!important;
+    color: #FFC107;
 }
 
 /*header*/
@@ -276,9 +277,7 @@ a {
         padding-left: 0.5rem;
     }
 
-    header a.nav-link1 {
-        margin-right: 2px;
-    }
+    
 
     .d-lg-block {
         display: block !important;
@@ -300,13 +299,9 @@ a {
         margin: 0 4px;
     }
 
-   /* header a.nav-link1 {
-        font-size: 12px;
-    }*/
+   
 
-    header a.nav-link {
-        font-size: 16px;
-    }
+  
 
     header ul li.nav-item {
         margin: 0 4px;
@@ -418,7 +413,7 @@ main .section .section-content {
   font-size: 30px;
   font-weight: bold;
 }
-.product-details .product-info .product-price {
+.product-details .product-info .product-prices {
   font-size: 24px;
   color: #508690;
   font-weight: bold;
@@ -431,11 +426,7 @@ main .section .section-content {
   width: 66%;
   margin: 20px 0 40px;
 }
-@media only screen and (max-width: 959px) {
-  .product-details .product-info .product-addtocart {
-    width: 33%;
-  }
-}
+
 .product-details .product-info .product-addtocart button {
   width: 100%;
   cursor: pointer;
@@ -449,6 +440,7 @@ main .section .section-content {
 }
 .product-details .product-info .product-addtocart button:hover {
   background: #5287a7;
+  opacity: 0.7;
 }
 .product-details .product-info .product-description {
   font-size: 12px;
@@ -559,7 +551,7 @@ ul li {
 }
 
 /*quantity*/
-.form-control {
+.form-controls {
     display: block;
     width: 20%;
     height: 34px;

@@ -1,10 +1,10 @@
-// (function(d, s, id) {
-//           var js, fjs = d.getElementsByTagName(s)[0];
-//           if (d.getElementById(id)) return;
-//           js = d.createElement(s); js.id = id;
-//           js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
-//           fjs.parentNode.insertBefore(js, fjs);
-//         }(document, 'script', 'facebook-jssdk'));
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 
 
 // details
@@ -40,7 +40,7 @@ var Chef = {
             
             // Toggle open class
             $('#menu').toggleClass('open');
-       });
+        });
     },
     
     misc: function() {
@@ -48,10 +48,10 @@ var Chef = {
         
         for (var i = 1; i <= 3; i++) {if (window.CP.shouldStopExecution(1)){break;}
             $('.product').parent().eq(0).clone().appendTo('.product-list');
-        }
-window.CP.exitedLoop(1);
-
     }
+    window.CP.exitedLoop(1);
+
+}
 };
 
 $(function() {
@@ -78,25 +78,37 @@ $('.owl-carousel').owlCarousel({
 
 // contdown
 const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
+minute = second * 60,
+hour = minute * 60,
+day = hour * 24;
 
-let countDown = new Date('Jul 31, 2019 00:00:00').getTime(),
-    x = setInterval(function() {
+let countDown = new Date('AUG 10, 2019 00:00:00').getTime(),
+x = setInterval(function() {
 
-      let now = new Date().getTime(),
-          distance = countDown - now;
+  let now = new Date().getTime(),
+  distance = countDown - now;
 
-      document.getElementById('days').innerText = Math.floor(distance / (day)),
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-      
+  document.getElementById('days').innerText = Math.floor(distance / (day)),
+  document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+  document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+  document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
       //do something later when date is reached
       //if (distance < 0) {
       //  clearInterval(x);
       //  'IT'S MY BIRTHDAY!;
       //}
 
-    }, second)
+  }, second)
+
+
+// // login
+// // Get the modal
+// var modal = document.getElementById('id01');
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
