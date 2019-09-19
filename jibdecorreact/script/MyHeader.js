@@ -2,7 +2,8 @@ function MyHeader(){
     return(
       <div>
     <div className="topbanner">
-      <p>20% OFF EXTRA - USE: JIBDECOR</p>
+      <p>200K OFF EXTRA - USE: JIBDECOR</p>
+      <p>300K OFF EXTRA - USE: SUMMER-OUTLET</p>
     </div>
     <header className="w-100 fixed-mobile container">
       <nav className="navbar navbar-expand-lg navbar-light p-3 navbar1">
